@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="ru"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>LIBCORIX — технологическое сообщество</title><meta name="description" content="LIBCORIX — технологическое сообщество. Основное направление — беспилотные летательные аппараты.">
+<meta property="og:type" content="website"><meta property="og:site_name" content="LIBCORIX"><meta property="og:title" content="LIBCORIX — технологическое сообщество"><meta property="og:description" content="LIBCORIX — технологическое сообщество. Основное направление — беспилотные летательные аппараты."><meta property="og:locale" content="ru_RU"><meta name="twitter:card" content="summary_large_image"><meta property="og:url" content="https://libcorix.ru/"><meta property="og:image" content="https://libcorix.ru/preview.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><link rel="canonical" href="https://libcorix.ru/"><link rel="alternate" hreflang="ru" href="https://libcorix.ru/"><link rel="alternate" hreflang="en" href="https://libcorix.ru/en/"><link rel="alternate" hreflang="x-default" href="https://libcorix.ru/"><link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png"><link rel="icon" type="image/png" sizes="180x180" href="favicon.png"><link rel="apple-touch-icon" href="favicon.png">
+<style>
+:root{--ink:#0b0b0c;--red:#9a3333}
+*{box-sizing:border-box}
+body{margin:0;background:#fff;color:var(--ink);font:17px/1.65 system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif}
+.wrap{max-width:1040px;margin:0 auto;padding:0 20px}
+a{color:inherit}
+header .wrap{display:flex;align-items:center;justify-content:space-between;height:68px}
+.wm{height:34px;width:auto;display:block}
+.lang{display:inline-flex;align-items:center;padding:8px 18px;border-radius:999px;background:#0b0b0c;color:#fff;text-decoration:none;font-size:15px;font-weight:500;letter-spacing:.06em;border:1px solid rgba(255,255,255,.14);box-shadow:inset 1px 1px 0 rgba(255,255,255,.26),inset -1px -1px 0 rgba(255,255,255,.07),inset 0 0 10px rgba(255,255,255,.08);transition:background .2s,border-color .2s}
+.lang:hover{background:#1c1c1e;border-color:rgba(255,255,255,.3)}
+.lang:focus-visible{outline:2px solid var(--ink);outline-offset:3px}
+.block{background:var(--ink);color:#fff;position:relative;overflow:hidden}
+.hero{padding:56px 0 130px;clip-path:polygon(0 0,100% 0,100% calc(100% - 56px),0 100%)}
+.hero::after{content:"";position:absolute;right:0;bottom:66px;width:38%;height:34px;background:#fff;clip-path:polygon(0 50%,100% 0,100% 100%)}
+.hero .wrap{display:grid;gap:36px;align-items:center}
+h1{font-size:clamp(26px,5.2vw,42px);line-height:1.2;margin:0 0 20px;letter-spacing:-.01em}
+.hero p{color:#d6d7da;margin:0 0 14px;max-width:34em}
+.hero-logo{width:100%;max-width:460px;height:auto;justify-self:center}
+section{padding:56px 0}
+section.tight{padding-top:8px}
+.brand{display:block;line-height:0;padding:9px 0}
+h2{font-size:14px;letter-spacing:.18em;text-transform:uppercase;margin:0 0 28px;display:flex;align-items:center;gap:14px}
+h2::before{content:"";width:34px;height:4px;background:var(--red)}
+.cards{display:grid;gap:20px}
+.card{background:var(--ink);color:#fff;padding:28px 26px 34px;clip-path:polygon(0 0,100% 0,100% calc(100% - 26px),calc(100% - 26px) 100%,0 100%)}
+.card h3{margin:0 0 8px;font-size:22px}
+.card p{margin:0;color:#c9cbcf}
+.rows{display:grid;gap:18px}
+.row{border-left:5px solid var(--ink);padding:2px 0 2px 20px}
+.row h3{margin:0;font-size:21px}.row p{margin:2px 0 0;color:#444}
+.follow{padding:96px 0 56px;clip-path:polygon(0 56px,100% 0,100% 100%,0 100%);margin-top:20px}
+.follow::before{content:"";position:absolute;left:0;top:46px;width:34%;height:34px;background:#fff;clip-path:polygon(0 0,100% 50%,0 100%)}
+.follow h2{color:#fff}.follow p{color:#d6d7da;margin:0 0 22px}
+.follow .wrap{position:relative;z-index:1}
+.card{position:relative;border-radius:6px;background:#0b0b0c;border:1px solid rgba(255,255,255,.14);
+clip-path:polygon(0 0,100% 0,100% calc(100% - 26px),calc(100% - 26px) 100%,0 100%);
+box-shadow:inset 1px 1px 0 rgba(255,255,255,.26),inset -1px -1px 0 rgba(255,255,255,.07),inset 0 0 18px rgba(255,255,255,.07)}
+.card::after{content:"";position:absolute;right:-1px;bottom:-1px;width:28px;height:28px;pointer-events:none;
+background:linear-gradient(to bottom right,transparent calc(50% - 1.5px),rgba(255,255,255,.3) calc(50% - 1.5px),rgba(255,255,255,.3) 50%,transparent 50%)}
+.follow .links{display:flex;flex-wrap:wrap;gap:10px}
+.follow .links a{display:inline-flex;align-items:center;gap:6px;padding:8px 16px;border-radius:999px;color:#fff;text-decoration:none;font-size:15px;font-weight:500;
+background:rgba(255,255,255,.07);-webkit-backdrop-filter:blur(18px) saturate(140%);backdrop-filter:blur(18px) saturate(140%);
+border:1px solid rgba(255,255,255,.12);
+box-shadow:inset 1px 1px 0 rgba(255,255,255,.26),inset -1px -1px 0 rgba(255,255,255,.07),inset 0 0 10px rgba(255,255,255,.08);
+transition:background .2s,border-color .2s}
+.follow .links a:hover{background:rgba(255,255,255,.13);border-color:rgba(255,255,255,.28)}
+.follow .links a::after{content:"↗";font-size:.85em;opacity:.6;transition:transform .2s}
+.follow .links a:hover::after{transform:translate(2px,-2px)}
+.follow .links a:focus-visible{outline:2px solid #fff;outline-offset:3px}.follow .mail{margin:14px 0 0;font-size:15px;color:#c9cbcf}.follow .mail a{display:inline-block;padding:8px 0;color:#fff;text-underline-offset:3px}
+footer{padding:22px 0 30px;font-size:14px;color:#555}
+@media(min-width:820px){.hero .wrap{grid-template-columns:1.15fr .85fr}.cards{grid-template-columns:1fr 1fr}.rows{grid-template-columns:repeat(3,1fr);gap:24px}}
+</style></head><body>
+<header><div class="wrap"><a class="brand" href="./"><svg class="wm" viewBox="150 270 395 78" role="img" aria-label="LIBCORIX"><g fill="#111"><path d="M156.70,303.20h10.60v39.60h-10.60Z" fill-rule="evenodd"/><path d="M156.70,334.80h39.00v8.00h-39.00Z" fill-rule="evenodd"/><path d="M211.70,303.20h10.60v39.60h-10.60Z" fill-rule="evenodd"/><path d="M238.10,303.20H274.50A5.5,5.5 0 0 1 280.00,308.70V319.90A3.0,3.0 0 0 1 277.00,322.90A3.0,3.0 0 0 0 280.00,325.90V337.30A5.5,5.5 0 0 1 274.50,342.80H238.10ZM248.70,310.80h20.90v8.20h-20.90ZM248.70,328.40h20.90v7.00h-20.90Z" fill-rule="evenodd"/><path d="M335.10,303.20H311.60A16.0,16.0 0 0 0 295.60,319.20V326.80A16.0,16.0 0 0 0 311.60,342.80H335.10V334.80H311.20A5.0,5.0 0 0 1 306.20,329.80V316.20A5.0,5.0 0 0 1 311.20,311.20H335.10Z" fill-rule="evenodd"/><path d="M365.80,303.20H380.20A16.5,16.5 0 0 1 396.70,319.70V326.30A16.5,16.5 0 0 1 380.20,342.80H365.80A16.5,16.5 0 0 1 349.30,326.30V319.70A16.5,16.5 0 0 1 365.80,303.20ZM366.90,311.20H379.10A7.0,7.0 0 0 1 386.10,318.20V327.80A7.0,7.0 0 0 1 379.10,334.80H366.90A7.0,7.0 0 0 1 359.90,327.80V318.20A7.0,7.0 0 0 1 366.90,311.20Z" fill-rule="evenodd"/><path d="M411.70,303.20h10.60v39.60h-10.60Z" fill-rule="evenodd"/><path d="M411.70,303.20H444.00A5.5,5.5 0 0 1 449.50,308.70V320.90A5.5,5.5 0 0 1 444.00,326.40H411.70ZM422.30,311.20h17.00v7.20h-17.00Z" fill-rule="evenodd"/><path d="M426.08,323.40H438.08L451.50,342.80H437.20Z" fill-rule="evenodd"/><path d="M470.00,303.20h10.60v39.60h-10.60Z" fill-rule="evenodd"/><path d="M494.00,303.20H506.72L537.30,342.80H524.58Z" fill-rule="evenodd"/><path d="M524.58,303.20H537.30L506.72,342.80H494.00Z" fill-rule="evenodd"/></g><path d="M146.7,294.75L154.5,285.9L490,288.25L480.3,276L536,294.75Z" fill="#9a3333"/></svg></a><a class="lang" href="en/" hreflang="en" lang="en">EN</a></div></header>
+<main>
+<div class="block hero"><div class="wrap"><div><h1>LIBCORIX — технологическое сообщество.</h1><p>Основное направление — беспилотные летательные аппараты: мы разрабатываем и создаём БПЛА, работаем над новыми технологиями в этой области и популяризируем её. Мы уверены в потенциале беспилотных систем и стремимся сделать их доступнее и понятнее.</p><p>Сегодня в сообществе также работают подразделения медиа, инженерии и комьюнити-менеджмента. В будущем мы планируем расширяться и развиваться. Мы будем работать с теми, кто только знакомится с темой, и со специалистами с опытом.</p></div><svg xmlns="http://www.w3.org/2000/svg" viewBox="26 160 571 266" class="hero-logo" aria-hidden="true">
+  <defs>
+    <clipPath id="clipLeft"><path clip-rule="evenodd" d="M-200,-400H900V900H-200Z M550.05,-53.12L81.41,321.54A34.90,34.90 0 0 0 116.27,381.16L672.58,156.39Z"/></clipPath>
+    <clipPath id="clipTop"><path d="M0,0H700V258.3H161.7L143.3,270H0Z"/></clipPath>
+    <mask id="gaps" maskUnits="userSpaceOnUse" x="0" y="0" width="700" height="700">
+      <rect width="700" height="700" fill="#fff"/>
+      <g fill="none" stroke="#000" stroke-width="7.8" stroke-linejoin="round">
+        <path d="M179.72,351.32L114.81,377.54A31.0,31.0 0 0 1 83.84,324.59L203.91,228.60A53,53 0 0 1 289.35,261.71"/>
+        <circle cx="103.2" cy="348.8" r="18.9" stroke-width="5.2"/>
+      </g>
+      <g fill="#000"><path d="M255.95,251.61L263.63,253.52L263.63,262.48L255.95,264.39A20,20 0 0 1 254.92,266.89L258.99,273.66L252.66,279.99L245.89,275.92A20,20 0 0 1 243.39,276.95L241.48,284.63L232.52,284.63L230.61,276.95A20,20 0 0 1 228.11,275.92L221.34,279.99L215.01,273.66L219.08,266.89A20,20 0 0 1 218.05,264.39L210.37,262.48L210.37,253.52L218.05,251.61A20,20 0 0 1 219.08,249.11L215.01,242.34L221.34,236.01L228.11,240.08A20,20 0 0 1 230.61,239.05L232.52,231.37L241.48,231.37L243.39,239.05A20,20 0 0 1 245.89,240.08L252.66,236.01L258.99,242.34L254.92,249.11A20,20 0 0 1 255.95,251.61Z"/></g>
+      <rect x="228.3" y="255.2" width="17.5" height="2.4" rx="1.2" fill="#fff"/>
+    </mask>
+  </defs>
+  <g mask="url(#gaps)" fill="#55575a">
+    <path d="M152.28,337.61L166.46,339.79L166.46,359.21L152.28,361.39A50.5,50.5 0 0 1 146.31,375.80L154.80,387.36L141.06,401.10L129.50,392.61A50.5,50.5 0 0 1 115.09,398.58L112.91,412.76L93.49,412.76L91.31,398.58A50.5,50.5 0 0 1 76.90,392.61L65.34,401.10L51.60,387.36L60.09,375.80A50.5,50.5 0 0 1 54.12,361.39L39.94,359.21L39.94,339.79L54.12,337.61A50.5,50.5 0 0 1 60.09,323.20L51.60,311.64L65.34,297.90L76.90,306.39A50.5,50.5 0 0 1 91.31,300.42L93.49,286.24L112.91,286.24L115.09,300.42A50.5,50.5 0 0 1 129.50,306.39L141.06,297.90L154.80,311.64L146.31,323.20A50.5,50.5 0 0 1 152.28,337.61Z" clip-path="url(#clipLeft)"/>
+    <path d="M123.93,297.54C121.50,316.00 124.50,342.00 138.39,363.81L125.94,373.05L114.81,377.54A31.0,31.0 0 0 1 83.84,324.59L121.49,294.49Z"/>
+    <path d="M309.61,251.20L332.99,256.05L332.99,283.95L309.61,288.80A75,75 0 0 1 301.63,308.05L314.74,328.01L295.01,347.74L275.05,334.63A75,75 0 0 1 255.80,342.61L250.95,365.99L223.05,365.99L218.20,342.61A75,75 0 0 1 198.95,334.63L178.99,347.74L159.26,328.01L172.37,308.05A75,75 0 0 1 164.39,288.80L141.01,283.95L141.01,256.05L164.39,251.20A75,75 0 0 1 172.37,231.95L159.26,211.99L178.99,192.26L198.95,205.37A75,75 0 0 1 218.20,197.39L223.05,174.01L250.95,174.01L255.80,197.39A75,75 0 0 1 275.05,205.37L295.01,192.26L314.74,211.99L301.63,231.95A75,75 0 0 1 309.61,251.20Z" clip-path="url(#clipTop)"/>
+  </g>
+  <g fill="#9a3333">
+    <path d="M350.70,190.60L376.70,177.30L451.70,219.30L376.70,260.80L350.70,247.30L398.30,219.30Z"/>
+    <path d="M437.30,190.60L463.30,177.30L538.30,219.30L463.30,260.80L437.30,247.30L484.90,219.30Z"/>
+  </g>
+  <path d="M146.7,294.75L154.5,285.9L490,288.25L480.3,276L536,294.75Z" fill="#6e7074"/>
+  <g fill="#6e7074"><path d="M156.70,303.20h10.60v39.60h-10.60Z" fill-rule="evenodd"/><path d="M156.70,334.80h39.00v8.00h-39.00Z" fill-rule="evenodd"/><path d="M211.70,303.20h10.60v39.60h-10.60Z" fill-rule="evenodd"/><path d="M238.10,303.20H274.50A5.5,5.5 0 0 1 280.00,308.70V319.90A3.0,3.0 0 0 1 277.00,322.90A3.0,3.0 0 0 0 280.00,325.90V337.30A5.5,5.5 0 0 1 274.50,342.80H238.10ZM248.70,310.80h20.90v8.20h-20.90ZM248.70,328.40h20.90v7.00h-20.90Z" fill-rule="evenodd"/><path d="M335.10,303.20H311.60A16.0,16.0 0 0 0 295.60,319.20V326.80A16.0,16.0 0 0 0 311.60,342.80H335.10V334.80H311.20A5.0,5.0 0 0 1 306.20,329.80V316.20A5.0,5.0 0 0 1 311.20,311.20H335.10Z" fill-rule="evenodd"/><path d="M365.80,303.20H380.20A16.5,16.5 0 0 1 396.70,319.70V326.30A16.5,16.5 0 0 1 380.20,342.80H365.80A16.5,16.5 0 0 1 349.30,326.30V319.70A16.5,16.5 0 0 1 365.80,303.20ZM366.90,311.20H379.10A7.0,7.0 0 0 1 386.10,318.20V327.80A7.0,7.0 0 0 1 379.10,334.80H366.90A7.0,7.0 0 0 1 359.90,327.80V318.20A7.0,7.0 0 0 1 366.90,311.20Z" fill-rule="evenodd"/><path d="M411.70,303.20h10.60v39.60h-10.60Z" fill-rule="evenodd"/><path d="M411.70,303.20H444.00A5.5,5.5 0 0 1 449.50,308.70V320.90A5.5,5.5 0 0 1 444.00,326.40H411.70ZM422.30,311.20h17.00v7.20h-17.00Z" fill-rule="evenodd"/><path d="M426.08,323.40H438.08L451.50,342.80H437.20Z" fill-rule="evenodd"/><path d="M470.00,303.20h10.60v39.60h-10.60Z" fill-rule="evenodd"/><path d="M494.00,303.20H506.72L537.30,342.80H524.58Z" fill-rule="evenodd"/><path d="M524.58,303.20H537.30L506.72,342.80H494.00Z" fill-rule="evenodd"/></g>
+  <rect x="217" y="357.3" width="367" height="14.4" fill="#c4c4c4"/><rect x="187.5" y="377.7" width="367" height="14.4" fill="#0a6a9a"/><rect x="158" y="398.0" width="367" height="14.4" fill="#9a3333"/>
+</svg>
+</div></div>
+<section><div class="wrap"><h2>Направления</h2><div class="cards"><div class="card"><h3>БПЛА</h3><p>Разработка БПЛА для разных направлений. Проектирование и создание беспилотных летательных аппаратов под конкретные задачи.</p></div><div class="card"><h3>Новые технологии</h3><p>Исследования и разработка новых технологий в сфере беспилотных систем.</p></div></div></div></section>
+<section class="tight"><div class="wrap"><h2>Подразделения</h2><div class="rows"><div class="row"><h3>Медиа</h3><p>Съёмка информационных репортажей.</p></div><div class="row"><h3>Комьюнити-менеджмент</h3><p>Большой опыт в сфере модерации и администрирования чатов и сообществ.</p></div><div class="row"><h3>Инженерия</h3><p>Работа с чертежами, САПР и программами 3D-моделирования.</p></div></div></div></section>
+<div class="block follow"><div class="wrap"><h2>Мы в сети</h2><p>Новости сообщества мы публикуем в наших каналах.</p><div class="links"><a href="https://t.me/LIBCORIX" target="_blank" rel="noopener">Telegram</a><a href="https://vk.com/libcorix" target="_blank" rel="noopener">ВКонтакте</a><a href="https://www.youtube.com/@LIBCORIX" target="_blank" rel="noopener">YouTube</a><a href="https://dzen.ru/libcorix" target="_blank" rel="noopener">Дзен</a><a href="https://rutube.ru/channel/43355278/" target="_blank" rel="noopener">Rutube</a></div><!-- temporary contact email, replace later --><p class="mail">Связаться: <a href="mailto:LIBCORIX@ya.ru">LIBCORIX@ya.ru</a></p></div></div>
+</main>
+<footer><div class="wrap">© 2026 LIBCORIX</div></footer>
+</body></html>
